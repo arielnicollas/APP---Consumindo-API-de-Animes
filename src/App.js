@@ -1,7 +1,6 @@
 import React from 'react';
 import './style.css';
-import { render } from 'react-dom';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 export default function App() {
   const [dataName, setData] = useState({});
@@ -10,8 +9,6 @@ export default function App() {
     fetch('https://animechan.vercel.app/api/random')
       .then((response) => response.json())
       .then((data) => setData(data));
-
-    console.log(dataName);
   };
 
   return (
@@ -23,7 +20,7 @@ export default function App() {
       <span>Personagem: {dataName.character}</span>
       <br />
       <br />
-      <span>Fala de impacto: {dataName.quote}</span>
+      <span>Fala de Impacto: {dataName.quote}</span>
       <br />
       <br />
       <button variant="info" onClick={getAPI}>
