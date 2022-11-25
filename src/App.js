@@ -20,7 +20,7 @@ export default function App() {
         <span className="name-character">Personagem: {dataName.character}</span>
 
         <span className="talk-character">
-          Fala de Impacto: {dataName.quote}
+          Fala do personagem: "{dataName.quote}"
         </span>
 
         <button className="btn-next" onClick={getAPI}>
