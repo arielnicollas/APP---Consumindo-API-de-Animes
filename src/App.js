@@ -12,20 +12,21 @@ export default function App() {
   };
 
   return (
-    <div class="bg-midnight">
-      <h1 class="text-3xl font-bold underline">Falas marcantes de Animes</h1>
-      <span>Anime: {dataName.anime}</span>
-      <br />
-      <br />
-      <span>Personagem: {dataName.character}</span>
-      <br />
-      <br />
-      <span>Fala de Impacto: {dataName.quote}</span>
-      <br />
-      <br />
-      <button variant="info" onClick={getAPI}>
-        Mostrar
-      </button>
+    <div className="container">
+      <div className="card">
+        <h1 className="title">Animes Legend's</h1>
+        <span className="name-anime">Nome do Anime: {dataName.anime}</span>
+
+        <span className="name-character">Personagem: {dataName.character}</span>
+
+        <span className="talk-character">
+          Fala de Impacto: {dataName.quote}
+        </span>
+
+        <button className="btn-next" onClick={getAPI}>
+          Próximo
+        </button>
+      </div>
     </div>
   );
 }
