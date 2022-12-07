@@ -1,6 +1,6 @@
 ## APP-Consumindo-API-de-Animes
 
-#Projeto criado com intuito de praticar conceitos a consumo de API.
+#Projeto criado para praticar conceitos a consumo de API's.
 
 #Tecnologias: ReactJs, CSS.
 #Conceitos: Hooks, Fecth(GET).
