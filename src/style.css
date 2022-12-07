@@ -23,7 +23,7 @@
 }
 
 .title {
-  color: white;
+  color: #E9E7C8;
 }
 
 .name-anime,
@@ -37,6 +37,11 @@
   cursor: pointer;
   border-radius: 0.5rem;
   border-color: rgb(10, 78, 41);
-  background-color: white;
+  background-color: #CDAEB4;
   color: black;
+}
+
+.style-label {
+  color: #CDAEB4;
+  font-size: 1.2rem;
 }
