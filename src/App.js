@@ -29,7 +29,7 @@ export default function App() {
            "{dataName.quote}"
         </span>
 
-        <button className="btn-next" onClick={getAPI}>
+        <button className="btn-next" onClick={getAPI}>git pull origin master
           Próximo
         </button>
       </div>
