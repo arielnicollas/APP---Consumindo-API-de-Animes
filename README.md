@@ -2,7 +2,7 @@
 
 Projeto criado para praticar conceitos a consumo de API's.
 
-Tecnologias: ReactJs, CSS.
+Tecnologias: React, CSS.
 
 Conceitos: Hooks, Fecth(GET).
 
